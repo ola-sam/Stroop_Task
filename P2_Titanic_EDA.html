@@ -11806,7 +11806,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -11848,7 +11848,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -11862,7 +11862,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -11973,7 +11973,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -11987,7 +11987,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12119,7 +12119,7 @@ embarked        Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southamp
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sex</span> <span class="o">=</span> <span class="n">train</span><span class="p">[</span><span class="s1">&#39;Sex&#39;</span><span class="p">]</span>
@@ -12168,7 +12168,7 @@ embarked        Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southamp
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">train</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
@@ -12190,7 +12190,7 @@ embarked        Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southamp
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">survivors_train</span><span class="o">=</span><span class="n">train</span><span class="p">[</span><span class="n">train</span><span class="o">.</span><span class="n">Survived</span><span class="o">==</span><span class="mi">1</span><span class="p">]</span>
@@ -12227,7 +12227,7 @@ embarked        Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southamp
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">survivors_train</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -12241,7 +12241,7 @@ embarked        Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southamp
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12373,7 +12373,7 @@ The Minimum and Maximum fare paid by survivors is 0 and 512 British Pounds respe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">perished_train</span><span class="o">=</span><span class="n">train</span><span class="p">[</span><span class="n">train</span><span class="o">.</span><span class="n">Survived</span><span class="o">==</span><span class="mi">0</span><span class="p">]</span>
@@ -12410,7 +12410,7 @@ The Minimum and Maximum fare paid by survivors is 0 and 512 British Pounds respe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">perished_train</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -12424,7 +12424,7 @@ The Minimum and Maximum fare paid by survivors is 0 and 512 British Pounds respe
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12567,7 +12567,7 @@ The Minimum and Maximum fare paid by survivors is 0 and 263 British Pounds respe
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -12588,11 +12588,11 @@ The Minimum and Maximum fare paid by survivors is 0 and 263 British Pounds respe
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x24759c62908&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x20ce1133908&gt;</pre>
 </div>
 
 </div>
@@ -12816,7 +12816,7 @@ the passenger class to detect patterns.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -12837,11 +12837,11 @@ the passenger class to detect patterns.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[16]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x2475d77ba20&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x20ce4c80320&gt;</pre>
 </div>
 
 </div>
@@ -13060,7 +13060,7 @@ H1: There is an association between surviving the titanic wreckage and class of 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">obs_class</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">pclass</span><span class="p">)</span>
@@ -13075,7 +13075,7 @@ H1: There is an association between surviving the titanic wreckage and class of 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[17]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -13129,7 +13129,7 @@ H1: There is an association between surviving the titanic wreckage and class of 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">chisquare</span>
@@ -13144,7 +13144,7 @@ H1: There is an association between surviving the titanic wreckage and class of 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -13193,7 +13193,7 @@ class which shows that passengers in 1st class has higher chances of surviving c
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -13214,11 +13214,11 @@ class which shows that passengers in 1st class has higher chances of surviving c
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[19]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x2475d7a92b0&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x20ce4fe5828&gt;</pre>
 </div>
 
 </div>
@@ -13422,7 +13422,7 @@ between 50 to 100 dollars survived as well. Passengers who paid the highest fare
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="p">[</span><span class="n">train</span><span class="o">.</span><span class="n">Fare</span><span class="o">&gt;</span><span class="mi">263</span><span class="p">]</span>
@@ -13436,7 +13436,7 @@ between 50 to 100 dollars survived as well. Passengers who paid the highest fare
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[16]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -13536,7 +13536,7 @@ between 50 to 100 dollars survived as well. Passengers who paid the highest fare
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pclass1</span> <span class="o">=</span> <span class="n">train</span><span class="p">[</span><span class="n">train</span><span class="o">.</span><span class="n">Pclass</span><span class="o">==</span><span class="mi">1</span><span class="p">]</span>
@@ -13551,7 +13551,7 @@ between 50 to 100 dollars survived as well. Passengers who paid the highest fare
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[17]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -13682,7 +13682,7 @@ I am a little curious in knowing if majority of this category survived as well</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pclass1</span><span class="p">[</span><span class="n">pclass1</span><span class="o">.</span><span class="n">Fare</span><span class="o">==</span><span class="mi">0</span><span class="p">]</span>
@@ -13696,7 +13696,7 @@ I am a little curious in knowing if majority of this category survived as well</
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -13827,7 +13827,7 @@ Reading into their biographies, they are employees of H&amp;W, the company that 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -13845,11 +13845,11 @@ Reading into their biographies, they are employees of H&amp;W, the company that 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[19]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[23]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475ece1278&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce61b1940&gt;</pre>
 </div>
 
 </div>
@@ -14035,7 +14035,7 @@ mode is between 51 to 100 GBP</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pclass2</span> <span class="o">=</span> <span class="n">train</span><span class="p">[</span><span class="n">train</span><span class="o">.</span><span class="n">Pclass</span><span class="o">==</span><span class="mi">2</span><span class="p">]</span>
@@ -14050,7 +14050,7 @@ mode is between 51 to 100 GBP</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[24]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -14170,7 +14170,7 @@ mode is between 51 to 100 GBP</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -14188,11 +14188,11 @@ mode is between 51 to 100 GBP</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[25]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475ed95fd0&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce626a6d8&gt;</pre>
 </div>
 
 </div>
@@ -14368,7 +14368,7 @@ while the median is 15 GBP. In this case, Median will be better measure of cente
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pclass3</span> <span class="o">=</span> <span class="n">train</span><span class="p">[</span><span class="n">train</span><span class="o">.</span><span class="n">Pclass</span><span class="o">==</span><span class="mi">3</span><span class="p">]</span>
@@ -14383,7 +14383,7 @@ while the median is 15 GBP. In this case, Median will be better measure of cente
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[26]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -14503,7 +14503,7 @@ while the median is 15 GBP. In this case, Median will be better measure of cente
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -14521,11 +14521,11 @@ while the median is 15 GBP. In this case, Median will be better measure of cente
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[23]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[27]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475ee51128&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce6320828&gt;</pre>
 </div>
 
 </div>
@@ -14711,7 +14711,7 @@ MzOcDMwfSBhdAAAADUlEQVTMDCcDMzMD/g8aj0v8dqWxeAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">swarmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">sex</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">age</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train</span><span class="p">)</span>
@@ -14728,11 +14728,11 @@ MzOcDMwfSBhdAAAADUlEQVTMDCcDMzMD/g8aj0v8dqWxeAAAAABJRU5ErkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[25]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475f14f240&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce63ef470&gt;</pre>
 </div>
 
 </div>
@@ -15742,7 +15742,7 @@ BCGJiKAvCIKQRETQFwRBSCL/Hw8kHIl1DY6yAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">survived_sex</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;Survived&#39;</span><span class="p">,</span> <span class="s1">&#39;Sex&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s1">&#39;PassengerId&#39;</span><span class="p">]</span>
@@ -15757,7 +15757,7 @@ BCGJiKAvCIKQRETQFwRBSCL/Hw8kHIl1DY6yAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[26]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[29]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -15786,7 +15786,7 @@ Name: PassengerId, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">survived_sex</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;barh&#39;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;r&#39;</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">,</span><span class="s1">&#39;g&#39;</span><span class="p">,</span><span class="s1">&#39;g&#39;</span><span class="p">])</span>
@@ -15803,11 +15803,11 @@ Name: PassengerId, dtype: int64</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[27]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[30]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475f091358&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce6494128&gt;</pre>
 </div>
 
 </div>
@@ -15999,7 +15999,7 @@ H1: The survival of each passengers is not independent of the passenger's Sex
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">chisquare</span>
@@ -16015,7 +16015,7 @@ H1: The survival of each passengers is not independent of the passenger's Sex
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[31]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -16051,7 +16051,7 @@ independent of the sex of the passenger.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">name</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16065,7 +16065,7 @@ independent of the sex of the passenger.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[29]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[32]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -16094,7 +16094,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">name_title</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -16116,7 +16116,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">firstname_title</span><span class="o">=</span><span class="n">extract_title</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
@@ -16131,7 +16131,7 @@ Name: Name, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[31]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[34]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -16160,7 +16160,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">name_title2</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -16182,7 +16182,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">title</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
@@ -16196,7 +16196,7 @@ Name: Name, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[33]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[36]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -16222,7 +16222,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">n</span><span class="p">,</span><span class="n">i</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">title</span><span class="p">):</span>
@@ -16268,7 +16268,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="p">[</span><span class="s1">&#39;Title&#39;</span><span class="p">]</span><span class="o">=</span> <span class="n">title</span>
@@ -16290,7 +16290,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Index 796 is a female Dr.</span>
@@ -16306,7 +16306,7 @@ Name: Name, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[36]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -16330,7 +16330,7 @@ Name: Name, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">n</span><span class="p">,</span><span class="n">i</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">train</span><span class="o">.</span><span class="n">Title</span><span class="p">):</span>
@@ -16338,33 +16338,11 @@ Name: Name, dtype: object</pre>
         <span class="ow">and</span> <span class="n">train</span><span class="o">.</span><span class="n">Age</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">15</span><span class="p">:</span>
         <span class="n">train</span><span class="o">.</span><span class="n">Title</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;Ms&#39;</span>
     <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="s1">&#39;Mr&#39;</span>\
-        <span class="ow">and</span> <span class="n">train</span><span class="o">.</span><span class="n">Age</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">16</span><span class="p">:</span>
+        <span class="ow">and</span> <span class="n">train</span><span class="o">.</span><span class="n">Age</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">15</span><span class="p">:</span>
         <span class="n">train</span><span class="o">.</span><span class="n">Title</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;Master&#39;</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\Anaconda3\lib\site-packages\ipykernel\__main__.py:3: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-  app.launch_new_instance()
-C:\Anaconda3\lib\site-packages\ipykernel\__main__.py:5: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -16380,7 +16358,7 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">swarmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">train</span><span class="o">.</span><span class="n">Title</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">age</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">train</span><span class="p">)</span>
@@ -17206,7 +17184,7 @@ YII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">survived_title</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;Title&#39;</span><span class="p">,</span> <span class="s1">&#39;Survived&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s1">&#39;PassengerId&#39;</span><span class="p">]</span>
@@ -17224,11 +17202,11 @@ YII=
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[42]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475f1c1240&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce65f8c50&gt;</pre>
 </div>
 
 </div>
@@ -17471,7 +17449,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">obs</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">train</span><span class="p">[</span><span class="s1">&#39;Title&#39;</span><span class="p">])</span>
@@ -17486,7 +17464,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[40]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[43]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -17548,7 +17526,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">chisquare</span>
@@ -17563,7 +17541,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[41]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[44]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -17597,7 +17575,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">family_member</span> <span class="o">=</span> <span class="n">siblings_spouse</span> <span class="o">+</span> <span class="n">parent_child</span>
@@ -17614,7 +17592,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[42]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[45]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -17746,7 +17724,7 @@ H1: There is an association between surviving the titanic wreckage and title of 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">train</span><span class="p">[</span><span class="s1">&#39;Family&#39;</span><span class="p">],</span> <span class="n">survived</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">color</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="s1">&#39;g&#39;</span><span class="p">])</span>
@@ -17763,11 +17741,11 @@ H1: There is an association between surviving the titanic wreckage and title of 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[43]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[46]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x2475f263710&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x20ce66990f0&gt;</pre>
 </div>
 
 </div>
@@ -18112,7 +18090,7 @@ H1: There is an association between surviving the titanic wreckage and presence 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">obs_fam</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">train</span><span class="p">[</span><span class="s1">&#39;Family&#39;</span><span class="p">])</span>
@@ -18127,7 +18105,7 @@ H1: There is an association between surviving the titanic wreckage and presence 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[44]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[47]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -18196,7 +18174,7 @@ H1: There is an association between surviving the titanic wreckage and presence 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">chisquare</span>
@@ -18211,7 +18189,7 @@ H1: There is an association between surviving the titanic wreckage and presence 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[45]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[48]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -18247,7 +18225,7 @@ with the presence of a family member on board of the titanic ship.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">correlation</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
@@ -18276,7 +18254,7 @@ with the presence of a family member on board of the titanic ship.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Correlation between survived and age is&#39;</span><span class="p">,</span> <span class="n">correlation</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">age</span><span class="p">))</span>
@@ -18322,7 +18300,7 @@ with the presence of a family member on board of the titanic ship.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Correlation between survived and pclass is&#39;</span><span class="p">,</span><span class="n">correlation</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">pclass</span><span class="p">))</span>
@@ -18371,7 +18349,7 @@ The likelihood of survival decreases.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Correlation between survived and family_member is&#39;</span><span class="p">,</span> <span class="n">correlation</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">family_member</span><span class="p">))</span>
@@ -18418,7 +18396,7 @@ Though this is very small, it means as the number of family member increases, th
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Correlation between survived and fare is&#39;</span><span class="p">,</span> <span class="n">correlation</span><span class="p">(</span><span class="n">survived</span><span class="p">,</span> <span class="n">fare</span><span class="p">))</span>
